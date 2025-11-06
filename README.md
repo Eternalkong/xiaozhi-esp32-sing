@@ -1,4 +1,6 @@
-# 小智开源音乐固件
+本项目是 # 小智开源音乐固件 (https://github.com/Maggotxy/xiaozhi-esp32-music) 原仓库 的 hard-fork，在其基础上增加了ai唱见功能。原作品采用 MIT 许可证，本文档继续沿用。
+
+# 小智ai唱见
 
 （中文 | [English](README_en.md) | [日本語](README_ja.md)）
 
@@ -12,24 +14,13 @@
 
 这是一个由虾哥开源的[ESP32项目](https://github.com/78/xiaozhi-esp32)，以 MIT 许可证发布，允许任何人免费使用，或用于商业用途。
 
-我们希望通过这个项目，让大家的小智都能播放歌曲。
+我们希望通过这个项目，让大家的小智都能唱歌，特别是可以使用自己喜欢的声音唱歌。
 
-如果你有任何想法或建议，请随时提出 Issues 或加入 QQ 群：826072986
-
-项目主要贡献者：空白泡泡糖果（B站UP），硅灵造物科技（B站UP）
-
-音乐服务器提供者（为爱发电）：一撒
+如果你有任何想法或建议，请随时提出 Issues 或加入 QQ 群：872475385
 
 ### 💡注意事项
 
-#### 1. 如果小智说找不到歌曲怎么办？
-进入[小智后台](https://xiaozhi.me/)，找到对应设备，修改角色配置
-- 选择 DeepSeekV3 大语言模型
-- 在人物介绍中填入
-  - 收到音乐相关的需求时，只使用 MPC tool `self.music.play_song` 工具，同时禁止使用 `search_music` 功能。
-
-
-#### 3. 暂不支持的开发板
+#### 1. 暂不支持的开发板
 - ESP32C3芯片的开发板
 
 
@@ -37,8 +28,8 @@
 
 #### 新增
 - main\boards\common\music.h
-- main\boards\common\esp32_music.cc
-- main\boards\common\esp32_music.h
+- main\boards\common\esp32_sing.cc
+- main\boards\common\esp32_sing.h
 
 #### 修改
 - main\mcp_server.cc
@@ -46,8 +37,6 @@
 - main\boards\common\board.h
 - main\application.cc
 - main\application.h
-- main\display\display.cc
-- main\display\display.h
 - main\audio\audio_service.cc
 - main\audio\audio_service.h
 - main\idf_component.yml
