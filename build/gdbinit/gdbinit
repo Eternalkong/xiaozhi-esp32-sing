@@ -1,0 +1,2 @@
+source /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/build/gdbinit/symbols
+source /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/build/gdbinit/connect

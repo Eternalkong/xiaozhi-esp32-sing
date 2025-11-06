@@ -1,0 +1,112 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/skylight9/.espressif/python_env/idf5.5_py3.13_env/bin/python -DESP_PLATFORM=1 -DSDKCONFIG='/home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/sdkconfig' -DCCACHE_ENABLE=0 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music
+-- Minimal build - OFF
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Skipping optional dependency: waveshare/esp_lcd_jd9365_10_1
+NOTICE: Skipping optional dependency: waveshare/esp_lcd_st7703
+NOTICE: Skipping optional dependency: espressif/esp_lcd_ili9881c
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espfriends/servo_dog_ctrl
+NOTICE: Processing 47 dependencies:
+NOTICE: [1/47] 78/esp-ml307 (3.2.8)
+NOTICE: [2/47] 78/esp-opus (1.0.5)
+NOTICE: [3/47] 78/esp-opus-encoder (2.4.1)
+NOTICE: [4/47] 78/esp-wifi-connect (2.4.3)
+NOTICE: [5/47] 78/esp_lcd_nv3023 (1.0.0)
+NOTICE: [6/47] 78/xiaozhi-fonts (1.3.2)
+NOTICE: [7/47] chmorgan/esp-libhelix-mp3 (1.0.3)
+NOTICE: [8/47] espressif/adc_battery_estimation (0.2.1)
+NOTICE: [9/47] espressif/adc_mic (0.2.1)
+NOTICE: [10/47] espressif/button (4.1.4)
+NOTICE: [11/47] espressif/cmake_utilities (0.5.3)
+NOTICE: [12/47] espressif/dl_fft (0.3.1)
+NOTICE: [13/47] espressif/esp-dsp (1.6.0)
+NOTICE: [14/47] espressif/esp-sr (2.1.5)
+NOTICE: [15/47] espressif/esp32-camera (2.1.3)
+NOTICE: [16/47] espressif/esp_codec_dev (1.3.6)
+NOTICE: [17/47] espressif/esp_io_expander (1.0.1)
+NOTICE: [18/47] espressif/esp_io_expander_tca9554 (2.0.0)
+NOTICE: [19/47] espressif/esp_io_expander_tca95xx_16bit (2.0.1)
+NOTICE: [20/47] espressif/esp_jpeg (1.3.1)
+NOTICE: [21/47] espressif/esp_lcd_axs15231b (1.0.1~1)
+NOTICE: [22/47] espressif/esp_lcd_gc9a01 (2.0.1)
+NOTICE: [23/47] espressif/esp_lcd_ili9341 (1.2.0)
+NOTICE: [24/47] espressif/esp_lcd_panel_io_additions (1.0.1)
+NOTICE: [25/47] espressif/esp_lcd_spd2010 (1.0.2)
+NOTICE: [26/47] espressif/esp_lcd_st77916 (1.0.1)
+NOTICE: [27/47] espressif/esp_lcd_st7796 (1.3.2)
+NOTICE: [28/47] espressif/esp_lcd_touch (1.1.2)
+NOTICE: [29/47] espressif/esp_lcd_touch_cst816s (1.1.0)
+NOTICE: [30/47] espressif/esp_lcd_touch_ft5x06 (1.0.7)
+NOTICE: [31/47] espressif/esp_lcd_touch_gt911 (1.1.3)
+NOTICE: [32/47] espressif/esp_lvgl_port (2.6.2)
+NOTICE: [33/47] espressif/esp_mmap_assets (1.4.0)
+NOTICE: [34/47] espressif/esp_new_jpeg (0.6.1)
+NOTICE: [35/47] espressif/freetype (2.13.3~1)
+NOTICE: [36/47] espressif/knob (1.0.1)
+NOTICE: [37/47] espressif/led_strip (2.5.5)
+NOTICE: [38/47] espressif2022/esp_emote_gfx (1.2.0~1)
+NOTICE: [39/47] espressif2022/image_player (1.1.1)
+NOTICE: [40/47] lvgl/lvgl (9.2.2)
+NOTICE: [41/47] tny-robotics/sh1106-esp-idf (1.0.0)
+NOTICE: [42/47] txp666/otto-emoji-gif-component (1.0.4)
+NOTICE: [43/47] waveshare/esp_lcd_sh8601 (1.0.2)
+NOTICE: [44/47] waveshare/esp_lcd_touch_cst9217 (1.0.3)
+NOTICE: [45/47] wvirgil123/esp_jpeg_simd (1.0.0)
+NOTICE: [46/47] wvirgil123/sscma_client (1.0.2)
+NOTICE: [47/47] idf (5.5.0)
+NOTICE: Skipping optional dependency: waveshare/esp_lcd_jd9365_10_1
+NOTICE: Skipping optional dependency: waveshare/esp_lcd_st7703
+NOTICE: Skipping optional dependency: espressif/esp_lcd_ili9881c
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espfriends/servo_dog_ctrl
+-- Project sdkconfig file /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/sdkconfig
+Loading defaults file /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/sdkconfig.defaults...
+/home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/sdkconfig.defaults:31 CONFIG_NEWLIB_NANO_FORMAT was replaced with CONFIG_LIBC_NEWLIB_NANO_FORMAT 
+Loading defaults file /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/sdkconfig.defaults.esp32s3...
+-- Compiler supported targets: xtensa-esp-elf
+-- USING O3
+-- App "xiaozhi" version: 2.0.1
+-- Adding linker script /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_master.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_50.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_smp.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_dtm.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_test.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.ble_scan.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.libc.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script /home/skylight9/esp/v5.5/esp-idf/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- ESP_LCD_NV3023: 1.0.0
+-- ADC_BATTERY_ESTIMATION: 0.2.1
+-- ADC_MIC: 0.2.1
+-- BUTTON: 4.1.4
+-- ESP_LCD_AXS15231B: 1.0.1
+-- ESP_LCD_GC9A01: 2.0.1
+-- ESP_LCD_ILI9341: 1.2.0
+-- ESP_LCD_PANEL_IO_ADDITIONS: 1.0.1
+-- ESP_LCD_SPD2010: 1.0.2
+-- ESP_LCD_ST77916: 1.0.1
+-- ESP_LCD_ST7796: 1.3.2
+-- LVGL version: 9.2.2
+-- ESP_MMAP_ASSETS: 1.4.0
+-- KNOB: 1.0.1
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Otto Emoji GIF Component:
+--   Found 7 GIF source files
+--   Include directory: /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/txp666__otto-emoji-gif-component/include
+-- ESP_LCD_SH8601: 1.0.2
+-- Component idf::main will be linked with -Wl,--whole-archive
+-- Components: 78__esp-ml307 78__esp-opus 78__esp-opus-encoder 78__esp-wifi-connect 78__esp_lcd_nv3023 78__xiaozhi-fonts app_trace app_update bootloader bootloader_support bt chmorgan__esp-libhelix-mp3 cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_bitscrambler esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_twai esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump espressif2022__esp_emote_gfx espressif2022__image_player espressif__adc_battery_estimation espressif__adc_mic espressif__button espressif__cmake_utilities espressif__dl_fft espressif__esp-dsp espressif__esp-sr espressif__esp32-camera espressif__esp_codec_dev espressif__esp_io_expander espressif__esp_io_expander_tca9554 espressif__esp_io_expander_tca95xx_16bit espressif__esp_jpeg espressif__esp_lcd_axs15231b espressif__esp_lcd_gc9a01 espressif__esp_lcd_ili9341 espressif__esp_lcd_panel_io_additions espressif__esp_lcd_spd2010 espressif__esp_lcd_st77916 espressif__esp_lcd_st7796 espressif__esp_lcd_touch espressif__esp_lcd_touch_cst816s espressif__esp_lcd_touch_ft5x06 espressif__esp_lcd_touch_gt911 espressif__esp_lvgl_port espressif__esp_mmap_assets espressif__esp_new_jpeg espressif__freetype espressif__knob espressif__led_strip esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lvgl__lvgl lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread rt sdmmc soc spi_flash spiffs tcp_transport tny-robotics__sh1106-esp-idf touch_element txp666__otto-emoji-gif-component ulp unity usb vfs waveshare__esp_lcd_sh8601 waveshare__esp_lcd_touch_cst9217 wear_levelling wifi_provisioning wpa_supplicant wvirgil123__esp_jpeg_simd wvirgil123__sscma_client xtensa
+-- Component paths: /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/78__esp-ml307 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/78__esp-opus /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/78__esp-opus-encoder /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/78__esp-wifi-connect /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/78__esp_lcd_nv3023 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/78__xiaozhi-fonts /home/skylight9/esp/v5.5/esp-idf/components/app_trace /home/skylight9/esp/v5.5/esp-idf/components/app_update /home/skylight9/esp/v5.5/esp-idf/components/bootloader /home/skylight9/esp/v5.5/esp-idf/components/bootloader_support /home/skylight9/esp/v5.5/esp-idf/components/bt /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/chmorgan__esp-libhelix-mp3 /home/skylight9/esp/v5.5/esp-idf/components/cmock /home/skylight9/esp/v5.5/esp-idf/components/console /home/skylight9/esp/v5.5/esp-idf/components/cxx /home/skylight9/esp/v5.5/esp-idf/components/driver /home/skylight9/esp/v5.5/esp-idf/components/efuse /home/skylight9/esp/v5.5/esp-idf/components/esp-tls /home/skylight9/esp/v5.5/esp-idf/components/esp_adc /home/skylight9/esp/v5.5/esp-idf/components/esp_app_format /home/skylight9/esp/v5.5/esp-idf/components/esp_bootloader_format /home/skylight9/esp/v5.5/esp-idf/components/esp_coex /home/skylight9/esp/v5.5/esp-idf/components/esp_common /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_ana_cmpr /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_bitscrambler /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_cam /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_dac /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_gpio /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_gptimer /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_i2c /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_i2s /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_isp /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_jpeg /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_ledc /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_mcpwm /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_parlio /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_pcnt /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_ppa /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_rmt /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_sdio /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_sdm /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_sdmmc /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_sdspi /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_spi /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_touch_sens /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_tsens /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_twai /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_uart /home/skylight9/esp/v5.5/esp-idf/components/esp_driver_usb_serial_jtag /home/skylight9/esp/v5.5/esp-idf/components/esp_eth /home/skylight9/esp/v5.5/esp-idf/components/esp_event /home/skylight9/esp/v5.5/esp-idf/components/esp_gdbstub /home/skylight9/esp/v5.5/esp-idf/components/esp_hid /home/skylight9/esp/v5.5/esp-idf/components/esp_http_client /home/skylight9/esp/v5.5/esp-idf/components/esp_http_server /home/skylight9/esp/v5.5/esp-idf/components/esp_https_ota /home/skylight9/esp/v5.5/esp-idf/components/esp_https_server /home/skylight9/esp/v5.5/esp-idf/components/esp_hw_support /home/skylight9/esp/v5.5/esp-idf/components/esp_lcd /home/skylight9/esp/v5.5/esp-idf/components/esp_local_ctrl /home/skylight9/esp/v5.5/esp-idf/components/esp_mm /home/skylight9/esp/v5.5/esp-idf/components/esp_netif /home/skylight9/esp/v5.5/esp-idf/components/esp_netif_stack /home/skylight9/esp/v5.5/esp-idf/components/esp_partition /home/skylight9/esp/v5.5/esp-idf/components/esp_phy /home/skylight9/esp/v5.5/esp-idf/components/esp_pm /home/skylight9/esp/v5.5/esp-idf/components/esp_psram /home/skylight9/esp/v5.5/esp-idf/components/esp_ringbuf /home/skylight9/esp/v5.5/esp-idf/components/esp_rom /home/skylight9/esp/v5.5/esp-idf/components/esp_security /home/skylight9/esp/v5.5/esp-idf/components/esp_system /home/skylight9/esp/v5.5/esp-idf/components/esp_timer /home/skylight9/esp/v5.5/esp-idf/components/esp_vfs_console /home/skylight9/esp/v5.5/esp-idf/components/esp_wifi /home/skylight9/esp/v5.5/esp-idf/components/espcoredump /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif2022__esp_emote_gfx /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif2022__image_player /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__adc_battery_estimation /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__adc_mic /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__button /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__cmake_utilities /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__dl_fft /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp-dsp /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp-sr /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp32-camera /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_codec_dev /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_io_expander /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_io_expander_tca9554 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_io_expander_tca95xx_16bit /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_jpeg /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_axs15231b /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_gc9a01 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_ili9341 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_panel_io_additions /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_spd2010 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_st77916 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_st7796 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_touch /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_touch_cst816s /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_touch_ft5x06 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lcd_touch_gt911 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_lvgl_port /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_mmap_assets /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__esp_new_jpeg /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__freetype /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__knob /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/espressif__led_strip /home/skylight9/esp/v5.5/esp-idf/components/esptool_py /home/skylight9/esp/v5.5/esp-idf/components/fatfs /home/skylight9/esp/v5.5/esp-idf/components/freertos /home/skylight9/esp/v5.5/esp-idf/components/hal /home/skylight9/esp/v5.5/esp-idf/components/heap /home/skylight9/esp/v5.5/esp-idf/components/http_parser /home/skylight9/esp/v5.5/esp-idf/components/idf_test /home/skylight9/esp/v5.5/esp-idf/components/ieee802154 /home/skylight9/esp/v5.5/esp-idf/components/json /home/skylight9/esp/v5.5/esp-idf/components/log /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/lvgl__lvgl /home/skylight9/esp/v5.5/esp-idf/components/lwip /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/main /home/skylight9/esp/v5.5/esp-idf/components/mbedtls /home/skylight9/esp/v5.5/esp-idf/components/mqtt /home/skylight9/esp/v5.5/esp-idf/components/newlib /home/skylight9/esp/v5.5/esp-idf/components/nvs_flash /home/skylight9/esp/v5.5/esp-idf/components/nvs_sec_provider /home/skylight9/esp/v5.5/esp-idf/components/openthread /home/skylight9/esp/v5.5/esp-idf/components/partition_table /home/skylight9/esp/v5.5/esp-idf/components/perfmon /home/skylight9/esp/v5.5/esp-idf/components/protobuf-c /home/skylight9/esp/v5.5/esp-idf/components/protocomm /home/skylight9/esp/v5.5/esp-idf/components/pthread /home/skylight9/esp/v5.5/esp-idf/components/rt /home/skylight9/esp/v5.5/esp-idf/components/sdmmc /home/skylight9/esp/v5.5/esp-idf/components/soc /home/skylight9/esp/v5.5/esp-idf/components/spi_flash /home/skylight9/esp/v5.5/esp-idf/components/spiffs /home/skylight9/esp/v5.5/esp-idf/components/tcp_transport /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/tny-robotics__sh1106-esp-idf /home/skylight9/esp/v5.5/esp-idf/components/touch_element /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/txp666__otto-emoji-gif-component /home/skylight9/esp/v5.5/esp-idf/components/ulp /home/skylight9/esp/v5.5/esp-idf/components/unity /home/skylight9/esp/v5.5/esp-idf/components/usb /home/skylight9/esp/v5.5/esp-idf/components/vfs /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/waveshare__esp_lcd_sh8601 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/waveshare__esp_lcd_touch_cst9217 /home/skylight9/esp/v5.5/esp-idf/components/wear_levelling /home/skylight9/esp/v5.5/esp-idf/components/wifi_provisioning /home/skylight9/esp/v5.5/esp-idf/components/wpa_supplicant /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/wvirgil123__esp_jpeg_simd /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/managed_components/wvirgil123__sscma_client /home/skylight9/esp/v5.5/esp-idf/components/xtensa
+-- Configuring done (79.9s)
+-- Generating done (1.1s)
+-- Build files have been written to: /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/build

@@ -1,0 +1,11 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/skylight9/.espressif/python_env/idf5.5_py3.13_env/bin/python -DESP_PLATFORM=1 -DSDKCONFIG='/home/skylight9/xiaozhi_ori/xiaozhi-esp32-music/sdkconfig' -DCCACHE_ENABLE=0 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music
+-- Minimal build - OFF
+-- Building ESP-IDF components for target esp32s3
+NOTICE: Skipping optional dependency: waveshare/esp_lcd_jd9365_10_1
+NOTICE: Skipping optional dependency: waveshare/esp_lcd_st7703
+NOTICE: Skipping optional dependency: espressif/esp_lcd_ili9881c
+NOTICE: Skipping optional dependency: espressif/esp_hosted
+NOTICE: Skipping optional dependency: espressif/esp_wifi_remote
+NOTICE: Skipping optional dependency: espfriends/servo_dog_ctrl
+NOTICE: Dependency "espressif2022/image_player (1.1.0~1)" version changed, solving dependencies.
+..........................................................................................................................................-- Configuring incomplete, errors occurred!

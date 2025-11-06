@@ -1,0 +1,12 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/skylight9/.espressif/python_env/idf5.5_py3.10_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 /home/skylight9/xiaozhi_ori/xiaozhi-esp32-music
+CMake Error at /home/skylight9/esp/v5.5/esp-idf/tools/cmake/build.cmake:629 (message):
+  WARNING: Component "espressif2022/image_player" not found
+
+  ERROR: Because project depends on espressif2022/image_player (==1.1.0~1)
+  which doesn't match any versions, version solving failed.
+
+Call Stack (most recent call first):
+  /home/skylight9/esp/v5.5/esp-idf/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:13 (project)
+
+
